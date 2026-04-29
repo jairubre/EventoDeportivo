@@ -48,7 +48,7 @@ public class Equipo {
         boolean encontrado=false;
         for (Participante participante : jugadores) {
             if (participante.getNombre().equals(nombre) && participante.getApellido().equals(apellido)) {
-                jugadores.removeAll(jugadores);
+                jugadores.remove(participante);
                 encontrado=true;
                 break;
             }

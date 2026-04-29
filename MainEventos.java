@@ -11,7 +11,7 @@ public class MainEventos {
         Carrera c1 = new Carrera("null", LocalDate.now(), "null", 2);
         c1.añadirParticipante(p1);
         c1.añadirParticipante(p2);
-        c1.ganador();
+        c1.obtenerGanador();
 
         Equipo e1 = new Equipo("ATM");
         e1.anadirJugador(p1);
@@ -23,6 +23,13 @@ public class MainEventos {
         t1.añadirEquipo(e1);
         t1.añadirEquipo(e2);
         
-        t1.ganador();
+        t1.obtenerGanador();
+
+
+        try {
+            e1.eliminarJugador("Pepe", "Luis");
+        } catch (Exception e) {
+            System.out.println(e);
+        }
     }
 }

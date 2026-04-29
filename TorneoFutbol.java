@@ -31,9 +31,10 @@ public class TorneoFutbol extends EventoDeportivo{
        System.out.println(e1.toString());
     }
 
-    public void hola(){
 
-    }
+  
+
+  
 
 
   

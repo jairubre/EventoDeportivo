@@ -37,9 +37,5 @@ public class Carrera extends EventoDeportivo {
         this.distancia = distancia;
     }
 
-    @Override
-    public void hola() {
-
-    }
 
 }
