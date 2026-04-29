@@ -44,7 +44,8 @@ public abstract class EventoDeportivo implements Ganador {
    
 
 
-    public abstract void añadirParticipante(Participante p1);
+    public abstract void ganador();
+    
 
     @Override
     public String toString() {
